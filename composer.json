@@ -1,6 +1,5 @@
 {
   "name": "torq/pimcore-frontend",
-  "type": "metapackage",
   "license": "MIT",
   "description": "Configuration files for initializing a Pimcore repository with a Vite/React frontend",
   "require": {
