@@ -1,13 +1,9 @@
 {
   "name": "torq/pimcore-frontend",
   "license": "MIT",
+  "type": "metapackage",
   "description": "Configuration files for initializing a Pimcore repository with a Vite/React frontend",
   "require": {
     "pimcore/pimcore": "*"
-  },
-  "scripts": {
-    "post-install-cmd": [
-        "if [ ! -d frontend ]; then npm create vite@latest frontend -- --template react-ts; fi"
-    ]
   }
 }
