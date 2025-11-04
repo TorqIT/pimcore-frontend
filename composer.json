@@ -6,4 +6,9 @@
   "require": {
     "pimcore/pimcore": "*"
   }
+  "scripts": {
+    "post-install-cmd": [
+        "if [ ! -d frontend ]; then npm create vite@latest frontend -- --template react-ts; fi"
+    ]
+  }
 }
